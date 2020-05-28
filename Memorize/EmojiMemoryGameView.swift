@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct EmojiMemoryGameView: View {
-    var viewModel: MemoryGameEmoji
+    var viewModel: EmojiMemoryGame
     
     var body: some View {
         HStack {
@@ -47,6 +47,6 @@ struct CardView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        EmojiMemoryGameView(viewModel: MemoryGameEmoji())
+        EmojiMemoryGameView(viewModel: EmojiMemoryGame())
     }
 }
